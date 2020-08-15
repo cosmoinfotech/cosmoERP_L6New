@@ -38,32 +38,29 @@
                                     <li><a href="/supplierMaster">Supplier Master</a></li>
                                     <li><a href="/groupMaster">Group Master</a></li>
                                     <li><a href="/clientMaster">Client Master</a></li>
-                                    <li><a href="/openingBalance">Opening Balance</a></li>
+                                    <li><a href="/ledgeropeningBalance">Opening Balance</a></li>
                                 </ul>
                             </li>
                             <li><a>Product Master<span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li class="sub_menu"><a href="/itemMaster">Item Master</a> </li>
-                                    <li><a href="javascript:void(0)">Category Master</a></li>
-                                    <li><a href="javascript:void(0)">Opening Stock</a></li>
-                                    <li><a href="javascript:void(0)">Price List</a></li>
-                                    <li><a href="javascript:void(0)">Godown Master</a></li>
+                                    <li><a href="/categoryMaster">Category Master</a></li>
+                                    <li><a href="/openingStock">Opening Stock</a></li>
+                                    <li><a href="/priceList">Price List</a></li>
+                                    <li><a href="/godownMaster">Godown Master</a></li>
                                 </ul>
                             </li>
-                            <li><a href="javascript:void(0)">Tax Master</a></li>
+                            <li><a href="/taxMaster">Tax Master</a></li>
                             <li><a href="javascript:void(0)">Message Master</a></li>
-                            <li><a href="javascript:void(0)">Narration</a></li>
+                            <li><a href="/narrationMaster">Narration</a></li>
                             <li><a>Setup<span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li class="sub_menu"><a href="javascript:void(0)">Setup 1</a> </li>
-                                    <li><a href="javascript:void(0)">Setup 2</a></li>
-                                    <li><a href="javascript:void(0)">Setup 3</a></li>
-                                    <li><a href="javascript:void(0)">Setup 4</a></li>
-                                    <li><a href="javascript:void(0)">Setup 5</a></li>
+                                    <li class="sub_menu"><a href="/setupMaster">Setup Master</a></li>
+                                    <li><a href="javascript:void(0)">Setup Details</a></li>
                                 </ul>
                             </li>
                             <li><a href="javascript:void(0)">Backup</a></li>
-                            <li><a href="javascript:void(0)">Create / Edit User</a></li>
+                            <li><a href="/createUser">Create / Edit User</a></li>
                             <li><a href="javascript:void(0)">Year End</a></li>
                             <li><a href="javascript:void(0)">Change CO</a></li>
                             <li><a href="javascript:void(0)">Quit</a></li>

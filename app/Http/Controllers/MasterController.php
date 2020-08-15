@@ -24,12 +24,47 @@ class MasterController extends Controller
     public function clientMaster(){
         return view('masters.clientMaster');
     }
-    public function openingBalance(){
-        return view('masters.openingBalance');
+    public function ledgeropeningBalance(){
+        return view('masters.leadgeropeningBalance');
     }
 
-    // Prodcut master with all submenu
+    // Product master with all submenu
     public function itemMaster(){
         return view('masters.itemMaster');
     }
+    public function categoryMaster(){
+        return view('masters.categoryMaster');
+    }
+    public function openingStock(){
+        return view('masters.openingStock');
+    }
+    public function priceList(){
+        return view('masters.priceList');
+    }
+    public function godownMaster(){
+        return view('masters.godownMaster');
+    }
+
+    // Tax Master
+    public function taxMaster(){
+        return view('masters.taxMaster');
+    }
+
+    // Narration
+    public function narrationMaster(){
+        return view('masters.narration');
+    }
+
+    // Setup 
+    public function setupMaster(){
+        return view('masters.setupMaster');
+    }
+
+
+    // create User
+    public function createUser(){
+        return view('masters.createUser');
+    }
+
+
 }
